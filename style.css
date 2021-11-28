@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trigger-btn{
+    padding: 5px;
+}
+.pokemon-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(255, 238, 0);
+}
+.cards-hide{
+    visibility: hidden;
+}
